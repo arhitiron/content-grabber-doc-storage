@@ -24,7 +24,7 @@ class DocStorage(object):
         self._link_consumer.start()
 
     def handle_document(self, document):
-        logging.log(logging.INFO, "document")
+        logging.log(logging.INFO, "Handle document")
         logging.log(logging.INFO, document)
         # TODO: add document preprocessing
         self._storage.save_document(document)
