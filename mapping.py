@@ -1,0 +1,2 @@
+# TODO: add elasticsearch mapping
+
